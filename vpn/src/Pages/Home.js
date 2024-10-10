@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../Images/Logo.jfif'
 import Team from '../Components/team'
+import Ransom from '../Components/ransom'
 
 
 const Home = () => {
@@ -66,6 +67,7 @@ const Home = () => {
       <hr/>
       <h3 id='ransom'>Ransomware Detection Implementation</h3>
       <hr/>
+      <Ransom/>
       <h3 id='mfa'>MFA Implementation</h3>
       <hr/>
       <h3 id='admin'>Admin Credential Implementation</h3>

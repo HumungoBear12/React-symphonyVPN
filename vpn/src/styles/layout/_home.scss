@@ -5,8 +5,9 @@
     float: right;
     h2{
         padding: 15px;
-        font-size: 4rem;
-        color: #121212;
+        font-size: 6rem;
+        color: $main;
+        font-family: Future;
     }
     hr{
         border-top: #121212 2px solid;
@@ -16,7 +17,10 @@
     h3{
         padding: 15px;
         font-size: 2rem;
-        font-weight: bold;
+        // font-weight: bold;
+        color: $main;
+        font-family: Future;
+
     }
     p{
         // width: 50%;
