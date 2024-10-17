@@ -1,10 +1,10 @@
 const teams = [
 {
     id:1,
-    name:"Arkelly Mugisha Kigoma",
-    graduation:"blank",
-    major:"blank",
-    role:"Team Leader",
+    name:"Arkelly Kigoma",
+    graduation:"Fall 2024",
+    major:"Cyber-Security",
+    role:"Team Leader/VPN Architect",
     img:"",
 },
 {
@@ -12,15 +12,15 @@ const teams = [
     name:"Andrew Makris",
     graduation:"Fall 2024",
     major:"Cyber-Security",
-    role:"blank",
+    role:"Web Developer/Security Specialist",
     img:"",
 },
 {
     id:3,
     name:"Cameron Teixidor",
-    graduation:"blank",
-    major:"blank",
-    role:"blank",
+    graduation:"Fall 2024",
+    major:"Cyber-Securtiy",
+    role:"Security Specialist/Network Administrator",
     img:"",
 },
 ]

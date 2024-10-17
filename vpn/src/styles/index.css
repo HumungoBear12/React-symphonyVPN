@@ -186,9 +186,10 @@ body {
   background-attachment: fixed;
   background-size: cover;
   scroll-behavior: smooth;
+  line-height: 1.9rem;
 }
 
-p, li, ol, h6 {
+p, li, ol, h6, ul, li {
   color: rgb(0, 0, 0);
 }
 
@@ -253,7 +254,6 @@ p, li, ol, h6 {
   background: #E5E5E5;
   border-radius: 10px;
   padding: 1rem 0;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   height: calc(100vh - 4rem);
 }
 .navbar__link {
@@ -1432,11 +1432,6 @@ p, li, ol, h6 {
   font-size: 1rem;
   margin-top: 1rem;
 }
-.ransom-container ol {
-  padding: 15px;
-  margin-top: -0.7rem;
-  margin-left: 0.5rem;
-}
 .ransom-container h6 {
   font-family: Future;
   font-size: 1rem;
@@ -1448,6 +1443,128 @@ p, li, ol, h6 {
   flex-wrap: nowrap;
   flex-direction: row;
 }
-.ransom-container li {
-  margin-top: 0.3rem;
+
+.container-mfa, .container-admin {
+  margin-bottom: 2rem;
+  padding: 15px;
+}
+.container-mfa h5, .container-admin h5 {
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+  font-family: Future;
+  color: rgb(2, 0, 119);
+}
+.container-mfa hr, .container-admin hr {
+  width: 0%;
+}
+.container-mfa div, .container-admin div {
+  padding: 5px;
+}
+.container-mfa p, .container-admin p {
+  margin: 1rem;
+}
+
+.container-vpn {
+  margin-bottom: 2rem;
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-vpn h5 {
+  color: rgb(2, 0, 119);
+  font-size: 1.3rem;
+  font-family: Future;
+}
+.container-vpn p {
+  width: 80%;
+  margin-top: 1rem;
+}
+.container-vpn ul {
+  margin-bottom: 2rem;
+}
+.container-vpn li {
+  margin-top: 0.4rem;
+  margin-left: 1rem;
+}
+
+.dawg {
+  color: rgb(2, 0, 119);
+  font-size: 2.4rem;
+  font-family: Future;
+}
+
+.footer {
+  margin-top: 3rem;
+  border-top: rgb(0, 0, 0) 2px solid;
+  height: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .one h2 {
+  margin-top: -30px;
+  text-align: center;
+  font-size: 4.5rem;
+  color: rgb(2, 0, 119);
+  font-family: Future;
+}
+.footer .one hr {
+  box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  border: none;
+}
+.footer .one div {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer .one div img {
+  height: 3rem;
+  width: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 5px;
+}
+.footer .one div img:hover {
+  height: 3.4rem;
+  width: 3.4rem;
+}
+.footer .two {
+  margin-top: -1rem;
+  font-family: Future;
+  color: rgb(2, 0, 119);
+}
+.footer .tee {
+  margin-top: 0rem;
+  font-family: Future;
+  color: rgb(2, 0, 119);
+}
+.footer .image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+.footer .text {
+  opacity: 0;
+  text-align: center;
+  transition: opacity 0.3s ease-in-out;
+  color: rgb(2, 0, 119);
+  font-weight: bold;
+  margin: 1rem;
+  text-decoration: none;
+}
+.footer .image-container:hover .text {
+  opacity: 1;
+}
+.footer img {
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+.footer .image-container:hover img {
+  transform: scale(1.1); /* Optional: zoom the image on hover */
 }/*# sourceMappingURL=index.css.map */

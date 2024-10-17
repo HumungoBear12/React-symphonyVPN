@@ -14,11 +14,13 @@ body {
 // background-attachment: fixed;
 // background-size: cover;
   scroll-behavior: smooth;
+  line-height: 1.9rem;
   
 }
-p,li,ol,h6{
+p,li,ol,h6,ul,li{
   color: rgb(0, 0, 0);
 }
+
 
 @font-face {
   font-family: Future;
