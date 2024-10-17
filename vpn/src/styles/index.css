@@ -216,7 +216,7 @@ p, li, ol, h6, ul, li {
 .Container-Home h2 {
   padding: 15px;
   font-size: 6rem;
-  color: rgb(2, 0, 119);
+  color: #00195f;
   font-family: Future;
 }
 .Container-Home hr {
@@ -226,7 +226,7 @@ p, li, ol, h6, ul, li {
 .Container-Home h3 {
   padding: 15px;
   font-size: 2rem;
-  color: rgb(2, 0, 119);
+  color: #00195f;
   font-family: Future;
 }
 .Container-Home p {
@@ -249,12 +249,13 @@ p, li, ol, h6, ul, li {
 
 .navbar {
   position: fixed;
-  top: 1rem;
-  left: 1rem;
   background: #E5E5E5;
-  border-radius: 10px;
   padding: 1rem 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   height: calc(100vh - 4rem);
+  background-color: #00195f;
+  height: 100%;
+  border-right: white 5px solid;
 }
 .navbar__link {
   position: relative;
@@ -1402,7 +1403,7 @@ p, li, ol, h6, ul, li {
 }
 .quotes .quote-card h3 {
   text-align: center;
-  color: rgb(2, 0, 119);
+  color: #00195f;
   margin-top: 1rem;
   width: 100%;
   text-wrap: nowrap;
@@ -1424,7 +1425,7 @@ p, li, ol, h6, ul, li {
   width: 15%;
 }
 .ransom-container h5 {
-  color: rgb(2, 0, 119);
+  color: #00195f;
   font-size: 1.3rem;
   font-family: Future;
 }
@@ -1435,7 +1436,7 @@ p, li, ol, h6, ul, li {
 .ransom-container h6 {
   font-family: Future;
   font-size: 1rem;
-  color: rgb(2, 0, 119);
+  color: #00195f;
 }
 .ransom-container .flex1 {
   display: flex;
@@ -1452,7 +1453,7 @@ p, li, ol, h6, ul, li {
   font-size: 1.3rem;
   margin-bottom: 0.6rem;
   font-family: Future;
-  color: rgb(2, 0, 119);
+  color: #00195f;
 }
 .container-mfa hr, .container-admin hr {
   width: 0%;
@@ -1471,7 +1472,7 @@ p, li, ol, h6, ul, li {
   justify-content: space-evenly;
 }
 .container-vpn h5 {
-  color: rgb(2, 0, 119);
+  color: #00195f;
   font-size: 1.3rem;
   font-family: Future;
 }
@@ -1488,7 +1489,7 @@ p, li, ol, h6, ul, li {
 }
 
 .dawg {
-  color: rgb(2, 0, 119);
+  color: #00195f;
   font-size: 2.4rem;
   font-family: Future;
 }
@@ -1506,7 +1507,7 @@ p, li, ol, h6, ul, li {
   margin-top: -30px;
   text-align: center;
   font-size: 4.5rem;
-  color: rgb(2, 0, 119);
+  color: #00195f;
   font-family: Future;
 }
 .footer .one hr {
@@ -1534,12 +1535,12 @@ p, li, ol, h6, ul, li {
 .footer .two {
   margin-top: -1rem;
   font-family: Future;
-  color: rgb(2, 0, 119);
+  color: #00195f;
 }
 .footer .tee {
   margin-top: 0rem;
   font-family: Future;
-  color: rgb(2, 0, 119);
+  color: #00195f;
 }
 .footer .image-container {
   display: flex;
@@ -1552,7 +1553,7 @@ p, li, ol, h6, ul, li {
   opacity: 0;
   text-align: center;
   transition: opacity 0.3s ease-in-out;
-  color: rgb(2, 0, 119);
+  color: #00195f;
   font-weight: bold;
   margin: 1rem;
   text-decoration: none;
@@ -1567,4 +1568,16 @@ p, li, ol, h6, ul, li {
 }
 .footer .image-container:hover img {
   transform: scale(1.1); /* Optional: zoom the image on hover */
+}
+
+.containerOverview .flex4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.containerOverview h4, .containerOverview h5 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.containerOverview img {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */

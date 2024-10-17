@@ -3,54 +3,6 @@ import React from 'react'
 const VPN = () =>{
     return (
         <div >
-            <div className='container-vpn'>
-                <div style={{ width: "50%" }}>
-                    <div>
-                    <h5>Ideas for VPN</h5>
-                    <ul>
-                        <li>- Build and configure a VPN</li>
-                        <li>- Implement Multi-Factor Authentication (MFA)</li>
-                        <li>- Detect and mitigate ransomware</li>
-                        <li>- Secure admin credentials</li>
-                    </ul>
-                    </div>
-                    <h5>Vision Statement</h5>
-                    <p>
-                    "To create a robust infrastructure that ensures secure remote access via a VPN, utilizing MFA, proactively detecting ransomware, and enforcing strict management of admin credentials to protect sensitive information."
-                    </p>
-                    <div>
-                    <h5>Purpose</h5>
-                    <p>
-                        Our goal is to configure a secure VPN that integrates MFA, uses admin credentials for access control, and includes ransomware detection.
-                    </p>
-                    </div>
-                </div>
-                
-                <div style={{ width: "50%" }}>
-                    <h5>Constraints</h5>
-                    <ul>
-                    <li>- Budget Limitations</li>
-                    <li>- Technical Compatibility</li>
-                    <li>- Resource Availability</li>
-                    </ul>
-
-                    <h5>Attributes</h5>
-                    <ul>
-                    <li>- Security</li>
-                    <li>- User Authentication</li>
-                    <li>- Threat Mitigation</li>
-                    </ul>
-
-                    <h5>Long Range Results</h5>
-                    <ul>
-                    <li>- Enhance Security Posture</li>
-                    <li>- Improve Threat Detection</li>
-                    <li>- Reduce Security Incidents</li>
-                    </ul>
-                </div>
-                </div>
-
-                <h5 className='dawg'>Steps for VPN Configuration</h5>
                 <div className='container-mfa'>
                 <div>
                     <h5>1. Assess Requirements and Define Policies</h5>

@@ -4,12 +4,12 @@ import {React} from 'react'
 const Ransom = () => {
     return (
         <div className='ransom-container'>
-            <div className='flex1' style={{flexDirection:'column'}}>
+            <div className='flex1'>
                 <div style={{ width: '40%' }}>
                 <h5 >Overview of Ransomware Detection</h5>
                 <p>Implementing ransomware detection in our VPN strengthens cybersecurity by monitoring traffic for ransomware signs, such as unauthorized encryption or suspicious data transfers. This approach helps mitigate threats before they spread and ensures endpoints are scanned for vulnerabilities. Advanced machine learning and real-time threat intelligence could enhance detection, enabling the system to respond to new ransomware variants. Immediate containment measures like isolating infected endpoints or blocking suspicious traffic would further protect the network, securing remote connections and streamlining incident response..</p>
                 </div>
-                <img style={{ width: '100%', height:'20rem', marginBottom:'2rem'}} src="https://www.provendata.com/wp-content/uploads/2023/05/ransomware-detection-1.png" alt="" />
+                <img style={{ width: '50%', height:'25rem',marginTop:'-2rem',marginBottom:'2rem', boxShadow:'none'}} src="https://2199909.fs1.hubspotusercontent-na1.net/hubfs/2199909/RansomwareGraphic-01.png" alt="" />
             </div>
             <div className='flex1'>
             <div style={{ width: '45%' }}>

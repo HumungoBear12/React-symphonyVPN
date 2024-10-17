@@ -29,15 +29,17 @@ $transition: $timing ease all;
 
 .navbar {
   position: fixed;
-  top: $spacer;
-  left: $spacer;
+  // top: $spacer;
+  // left: $spacer;
   background: $light;
-  border-radius: $borderRadius;
+  // border-radius: $borderRadius;
   padding: $spacer 0;
 //   box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
-// box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   height: calc(100vh - #{$spacer * 4});
-
+  background-color: $main;
+  height: 100%;
+  border-right: white 5px solid;
   &__link {
     position: relative;
     display: flex;

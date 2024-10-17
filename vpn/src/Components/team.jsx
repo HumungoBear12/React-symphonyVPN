@@ -10,12 +10,16 @@ const Team = () => {
                     const {id,name,graduation,role,major,img} = quotes;
                     return(
                         <div className="quote-card" key={id}>
-                            <img src={img} alt="" />
-                            <h3>{name}</h3>
-                            <hr />
-                            <p>{major}</p>
-                            <p>{graduation}</p>
-                            <p>{role}</p>
+                            <div>
+                                <img src={img} alt="" />
+                            </div>
+                            <div>
+                                <h3>{name}</h3>
+                                <hr />
+                                <p>{major}</p>
+                                <p>{graduation}</p>
+                                <p>{role}</p>
+                            </div>
                         </div>
                     )
                 })}
