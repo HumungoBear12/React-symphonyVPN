@@ -234,24 +234,49 @@ p, li, ol, h6, ul, li, a, h1, h3, h2, h4, h5 {
   font-weight: bolder;
 }
 .footer {
-  border-top: rgb(0, 145, 255) 4px solid;
-  height: 13rem;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   background-color: rgb(29, 29, 29);
+  color: white;
+  border-top: 4px solid rgb(0, 145, 255);
+  padding: 2rem;
 }
-.footer .one h2 {
+
+.footer-section {
   text-align: center;
-  font-size: 3.5rem;
-  color: rgb(0, 145, 255);
-  font-family: Future;
-  text-decoration: none;
-  margin-bottom: 1rem;
+  flex: 1;
+  padding: 0 1rem;
+  max-width: 300px;
 }
-.footer .two {
-  font-family: Future;
+
+.footer-section h2,
+.footer-section h3 {
+  font-family: Future, sans-serif;
+  margin-bottom: 0.5rem;
   color: rgb(0, 145, 255);
+}
+
+.footer-section p {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.quote-button {
+  padding: 0.7rem 1.2rem;
+  background-color: rgb(0, 145, 255);
+  border: none;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+
+.quote-button:hover {
+  background-color: rgb(0, 120, 215);
 }
 
 .Overview {

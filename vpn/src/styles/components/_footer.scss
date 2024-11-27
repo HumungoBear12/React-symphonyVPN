@@ -1,23 +1,46 @@
-.footer{
-    border-top: rgb(0, 145, 255)4px solid;
-    height:13rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(29, 29, 29);
-   .one{
-        h2{
-            text-align: center;
-            font-size:3.5rem;
-            color:$main;
-            font-family: Future;
-            text-decoration: none;
-            margin-bottom: 1rem;
-          
-        }
+.footer {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: rgb(29, 29, 29);
+     color: white;
+     border-top: 4px solid rgb(0, 145, 255);
+     padding: 2rem;
    }
-   .two{
-        font-family: Future;
-        color: $main;
+   
+   .footer-section {
+     text-align: center;
+     flex: 1;
+     padding: 0 1rem;
+     max-width: 300px;
    }
-  }
+   
+   .footer-section h2,
+   .footer-section h3 {
+     font-family: Future, sans-serif;
+     margin-bottom: 0.5rem;
+     color: rgb(0, 145, 255);
+   }
+   
+   .footer-section p {
+     font-family: Arial, sans-serif;
+     font-size: 1rem;
+     margin: 0.5rem 0;
+   }
+   
+   .quote-button {
+     padding: 0.7rem 1.2rem;
+     background-color: rgb(0, 145, 255);
+     border: none;
+     color: white;
+     font-family: Arial, sans-serif;
+     font-size: 1rem;
+     cursor: pointer;
+     border-radius: 5px;
+     margin-top: 0.5rem;
+   }
+   
+   .quote-button:hover {
+     background-color: rgb(0, 120, 215);
+   }
+   

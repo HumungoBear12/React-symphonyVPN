@@ -1,18 +1,27 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
     <div className="footer">
-        <br />
-        <div className="one">
-          <h2 style={{color:'white'}}>Symphony VPN</h2>
-        </div>
-        <div className='two'>
-          <h4 style={{fontSize:'1.4rem'}}>Symphony VPN Website</h4>
-          <p style={{textAlign:'center', fontSize:'1.4rem'}}>@ 2024 Symphony</p>
-        </div>
+      <div className="footer-section">
+        <h2>Symphony VPN</h2>
+        <p>Your secure, scalable VPN solution</p>
+        <p>Symphony VPN Website</p>
+        <p>@Symphony 2024</p>
+      </div>
+      <div className="footer-section">
+        <h3>Customer Support</h3>
+        <p>Email: support@symphonyvpn.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Hours: Mon-Fri, 9 AM - 5 PM</p>
+      </div>
+      <div className="footer-section">
+        <h3>Request a Quote</h3>
+        <p>Interested in Symphony VPN for your business?</p>
+        <button className="quote-button">Request a Quote</button>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
