@@ -1,0 +1,83 @@
+.Overview{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    .flex3{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .three{
+            width: 50%;
+            
+        }
+        img{
+            width: 45%;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        }
+    }
+    .Video{
+        padding: 3rem;
+        h3{
+            font-weight: bolder;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+        iframe{
+            width: 50rem;
+            height: 30rem;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        height: 35rem;
+    }
+    .Flex1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .Goal{
+        width: 45rem;
+        h4{
+            font-weight: bold;
+        }
+    }
+    .Team{
+        img{
+            margin-bottom: 1rem;
+            width: 23rem;
+            height: 18rem;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            border: 1px white groove
+        }
+        .flexRow{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .flexVert{
+            display: flex;
+            flex-direction: column;
+                p,a{
+                    margin-left: 1rem;
+                    line-height: 3rem;
+                    text-align: center;
+                }
+                a{
+                    color: rgb(255, 255, 255);
+                    text-decoration: none;
+                    font-weight: bolder;
+                }
+                a:hover{
+                    color:rgb(0, 145, 255);
+                }
+        }
+    }
+    
+}
