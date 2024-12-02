@@ -1,7 +1,7 @@
 import React from 'react'
 import Tools from './tools'
 import Icon from '../Images/Icon.webp'
-import Andrew from '../Images/IMG_3462.jpg'
+import Andrew from '../Images/drew.JPG'
 import Kelly from '../Images/Kelly.JPEG'
 import Cameron from '../Images/Cameron.jpeg'
 const Overview = () => {
